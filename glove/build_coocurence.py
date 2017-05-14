@@ -48,7 +48,8 @@ class generateCoocur(object):
         M = len(self.vocab)
         self.document.seek(0)
         for line in self.document:
-            # TODO: shift this preprocessing to 'extract-text.py'
+            # TODO: shift this pr
+            # eprocessing to 'extract-text.py'
             tokens = line.strip().split()
             N = len(tokens)
             # To handle edge cases of context window

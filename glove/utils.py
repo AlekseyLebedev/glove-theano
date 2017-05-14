@@ -35,7 +35,7 @@ if __name__ == "__main__":
         inp = raw_input()
         evaluate(inp)
         if inp == "exit":
-        	break
+            break
     # while True:
     #	inp1, inp2 = raw_input().split()
     #	similarity(inp1, inp2)
